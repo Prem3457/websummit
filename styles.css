@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+html{
+    font-family: rubik, sans-serif;
+}
+
+body{
+    font-family: rubik, sans-serif;
+    background: #333;
+    color: white;
+}
+
+.navbar{
+    border-bottom: 3px solid steelblue !important;
+    opacity: 0.8;
+}
+
+#home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)), url(Images/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 760px;
+}
+
+#home .home-content{
+    padding-top: 150px;
+}
+
+#home .check-icon{
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    color: steelblue;
+}
+
+#donateMain .check-icon2{
+    background-color: teal;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+#fundsMain .check-icon3{
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    color: teal;
+}
+
+#shareMain .check-icon2{
+    background-color: teal;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+/*Social Media Sites*/
+.ic a i{
+    padding: 5px 5px;
+    border: solid rgba(255, 255, 255, 0.719) 1px;
+    border-radius:50%;
+    background-color: rgba(255, 255, 255, 0.767);
+}
+.twi a i {
+    color:rgb(39, 201, 212);
+}
+
+.twi a i:hover{
+    color: rgba(255, 255, 255, 0.993);
+    background-color: rgb(78, 212, 199);
+}
+
+.fac a i {
+    color:rgb(23, 14, 160);
+}
+
+.fac a i:hover {
+    color: white;
+    background-color: rgba(0, 0, 255, 0.767);
+    
+}
+
+.pin a i {
+    color:rgb(226, 51, 51);
+}
+
+.pin a i:hover{
+    color: white;
+    background-color: rgb(211, 63, 63);
+}
+
+.ins a i {
+    color:rgb(235, 18, 144);
+}
+
+.ins a i:hover{
+    color: white;
+    background-color: rgb(230, 31, 170);
+}
+
+.lin a i {
+    color:rgb(30, 136, 223);
+}
+
+.lin a i:hover {
+    color: white;
+    background-color: rgba(30,136,223);
+}
+.ic li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
